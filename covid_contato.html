@@ -1,0 +1,37 @@
+ <!DOCTYPE html>
+<html>
+  <head>
+    <title>Notícias Covid</title>
+    <link rel="stylesheet" href="covid.css"/>
+  </head>
+  <body>
+    <div class="menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="covid_sobre.html">Sobre</a></li>
+      <li><a href="covid_contato.html">Contato</a></li>
+      <li><a href="covid_saibamais.html">Saiba mais</a></li>
+    </div>
+    <div class="container">
+      <form action="teste.php" method="get">
+
+	<label for="fname">Nome</label>
+	<input type="text" id="fname" name="firstname" placeholder="Seu nome">
+
+	<label for="lname">Sobrenome</label>
+	<input type="text" id="lname" name="lastname" placeholder="Seu sobrenome">
+
+	<label for="assunto">Assunto</label>
+	<select id="assunto" name="assunto">
+	  <option value="elogio">Elogio</option>
+	  <option value="duvida">Dúvida</option>
+	  <option value="interesse">Interesse no trabalho</option>
+	</select>
+	
+	<label for="subject">Mensagem</label>
+	<textarea id="subject" name="subject" placeholder="Digite algo" style="height:200px"></textarea>
+
+	<input type="submit" value="Enviar">
+      </form>
+    </div> 
+  </body>
+</html>
